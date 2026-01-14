@@ -13,7 +13,7 @@ import { Callout } from '@/components/ui/callout';
 import { GlobalFormValidationError, useForm } from '@tanstack/react-form';
 import { Project } from '@/lib/generated-api';
 import { InfoIcon } from 'lucide-react';
-import { featureFlags } from '@/lib/config';
+import { featureFlags } from '@/lib/constants';
 
 interface EditProjectDialogProps {
   isOpen: boolean;

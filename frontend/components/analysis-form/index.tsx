@@ -13,7 +13,7 @@ import { hasWebSearchRequirement, hasPublicationDateRequirement } from '../workf
 import { AnalysisFormData, AnalysisFormValues } from './types';
 import { UploadSection } from './upload-section';
 import { validateAnalysisForm } from './validation';
-import { featureFlags } from '@/lib/config';
+import { featureFlags } from '@/lib/constants';
 
 export interface AnalysisFormProps {
   onSubmit: (data: AnalysisFormData) => void;

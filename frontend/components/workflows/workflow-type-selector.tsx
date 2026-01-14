@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { WorkflowRunType, WorkflowTypeDescription } from '@/lib/generated-api';
 import { WorkflowTypeCheckbox } from './workflow-type-checkbox';
 import { Button } from '../ui/button';
-import { featureFlags } from '@/lib/config';
+import { featureFlags } from '@/lib/constants';
 
 interface WorkflowTypeSelectorProps {
   workflowTypes?: WorkflowTypeDescription[];

@@ -3,7 +3,7 @@ import { FormValidationError, GlobalFormValidationError } from '@tanstack/react-
 import { AnalysisFormValues } from './types';
 import { WorkflowTypeDescription } from '@/lib/generated-api';
 import { hasWebSearchRequirement, hasPublicationDateRequirement } from '../workflows/utils';
-import { featureFlags } from '@/lib/config';
+import { featureFlags } from '@/lib/constants';
 
 export function validateAnalysisForm(
   value: AnalysisFormValues,

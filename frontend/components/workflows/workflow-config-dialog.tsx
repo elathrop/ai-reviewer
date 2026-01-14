@@ -17,7 +17,7 @@ import { useEffect } from 'react';
 import { WorkflowTypeSelector } from './workflow-type-selector';
 import { WebSearchConsentCheckbox } from './web-search-consent-checkbox';
 import { hasWebSearchRequirement, hasPublicationDateRequirement } from './utils';
-import { featureFlags } from '@/lib/config';
+import { featureFlags } from '@/lib/constants';
 
 interface WorkflowConfigDialogProps {
   isOpen: boolean;
